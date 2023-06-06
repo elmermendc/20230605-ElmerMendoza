@@ -1,0 +1,3 @@
+CPU
+Memoria
+Disco Duro

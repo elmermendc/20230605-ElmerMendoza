@@ -1,0 +1,5 @@
+git init
+git remote -v
+git log --oneline
+git pull origin main
+git push origin main
