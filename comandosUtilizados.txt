@@ -1,0 +1,45 @@
+  174  git init
+  175  git remote -v
+  176  git remote add origin https://github.com/elmermendc/20230605-ElmerMendoza.git
+  177  git branch -M main
+  178  touch comandos.txt main.js index.html
+  179  ls
+  180  git status
+  181  git add .
+  182  git commit -m "commit 01 de ElmerMendoza"
+  183  git push origin main
+  184  git branch feature01
+  185  git checkout feature01
+  186  mkdir Terminal
+  187  mkdir Hardware
+  188  ls
+  189  cd Hardware/
+  190  resumen.txt
+  191  touch resumen.txt
+  192  cd ..
+  193  cd Terminal/
+  194  touch resumen.txt
+  195  ls
+  196  cd ..
+  197  git status
+  198  git add .
+  199  git commit -m "commit 02 de ElmerMendoza"
+  200  git push origin feature01
+  201  git branch feature02
+  202  git checkout feature02
+  203  ls
+  204  cd Terminal/
+  205  vim resumen.txt
+  206  cd ..
+  207  cd Hardware/
+  208  vim resumen.txt
+  209  cd ..
+  210  git status
+  211  git add .
+  212  git commit -m "commit 03 de ElmerMendoza"
+  213  git push origin feature02
+  214  git checkout main
+  215  ls
+  216  git mv comandos.txt comandosUtilizados.txt
+  217  ls
+  218  history 100
